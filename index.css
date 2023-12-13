@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+#shopping_cart {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-list, #shopping-cart {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.cart-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item button {
+    background-color: #c50e1f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#coupon-input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0d1f33;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d2cccc;
+}
+

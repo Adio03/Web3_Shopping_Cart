@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Shopping Cart</title>
+</head>
+<body>
+<div id="shopping_cart">
+    <div id="content-container">
+        <div id="product-list">
+            <h1>Product List</h1>
+        </div>
+
+        <div id="shopping-cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <label for="coupon-input"></label>
+            <input type="text" id="coupon-input" placeholder="Enter coupon code">
+            <button onclick="applyCoupon()">Apply Coupon</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
